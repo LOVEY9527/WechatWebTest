@@ -1,7 +1,9 @@
 <!--home.wxml-->
 <view class="container">
-    <view>{{text}}</view>
+    <view bindTap="viewTap">点我</view>
+    <view bindtap="tapTest">点我</view>    
+    <!--<view>{{text}}</view>
     <block wx:for="{{array}}" wx:for-index="i" wx:for-item="obj">
         <view>{{obj.key}}</view>
-    </block>   
+    </block>   -->
 </view>

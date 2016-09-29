@@ -18,5 +18,11 @@ Page({
   },
   onUnload:function(){
     // 页面关闭
+  },
+  tapTest:function(){
+    console.log("tap test success!")
+  },
+  viewTap: function() {
+    console.log('view tap')
   }
 })
