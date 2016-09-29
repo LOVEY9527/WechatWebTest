@@ -1,0 +1,47 @@
+{
+  "pages":[   
+    "pages/home/home",
+    "pages/chat/chat",
+    "page/addservice/addservice",
+    "page/friendcricle/friendcricle",
+    "page/own/own"    
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#ff6c00",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "white",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#ff6c00",
+    "backgroundColor": "white",
+    "borderStyle": "white",
+    "list":[{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "resource/frameworks/frameworks_home.png",
+      "selectedIconPath": "resource/frameworks/frameworks_home.png"
+    }, {
+      "pagePath": "pages/chat/chat",
+      "text": "逸消息",
+      "iconPath": "resource/frameworks/frameworks_chat.png",
+      "selectedIconPath": "resource/frameworks/frameworks_chat.png"
+    }, {
+      "pagePath": "page/addservice/addservice",
+      "text": "",
+      "iconPath": "resource/frameworks/frameworks_addservice.png",
+      "selectedIconPath": "resource/frameworks/frameworks_addservice.png"
+    }, {
+      "pagePath": "page/friendcricle/friendcricle",
+      "text": "逸友秀",
+      "iconPath": "resource/frameworks/frameworks_friendcricle.png",
+      "selectedIconPath": "resource/frameworks/frameworks_friendcricle.png"
+    }, {
+      "pagePath": "page/own/own",
+      "text": "我的",
+      "iconPath": "resource/frameworks/frameworks_own.png",
+      "selectedIconPath": "resource/frameworks/frameworks_own.png"
+    }]
+  }
+}
